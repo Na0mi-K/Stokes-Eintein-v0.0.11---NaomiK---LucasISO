@@ -124,7 +124,7 @@ msd = squared_radius
 
 *After the simulation, the program creates four plots.*
 
-**1. 3D Brownian trajectory**
+# 1. 3D Brownian trajectory
 
 The first graph shows the particle's path *(The trajectory is displayed in nanometers for readability because otherwise it looks like absolute shit)*
 
@@ -132,7 +132,7 @@ The first graph shows the particle's path *(The trajectory is displayed in nanom
 <img width="463" height="299" alt="Image" src="https://github.com/user-attachments/assets/c2f04ea1-409e-4032-a866-e555e8576959" />
 
 
-**2. MSD vs time**
+# 2. MSD vs time
 
 The second graph compares: Simulation against Theory (***6Dt***)
 So you should expect the simulated curve to fluctuate around the theoretical relationship rather than perfectly overlap it.( + beyond 0.04 it just diverges like crazy ) 
@@ -140,7 +140,7 @@ So you should expect the simulated curve to fluctuate around the theoretical rel
 <img width="525" height="300" alt="Image" src="https://github.com/user-attachments/assets/b6cbdfad-787f-4324-b6f0-1823db94c578" />
 
 
-**3. Distribution of individual movements**
+# 3. Distribution of individual movements
 
 The third graph looks at the distribution of the individual Δx movements. Because the simulation generates them from a Gaussian distribution, the program overlays the simulated histogram with the theoretical Gaussian distribution. **!** *this is still under development and doesnt work well currently ; but This should check whether the random steps being generated behave as expected statistically.*
 
