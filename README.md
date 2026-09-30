@@ -142,9 +142,24 @@ So you should expect the simulated curve to fluctuate around the theoretical rel
 
 **3. Distribution of individual movements**
 
-The third graph looks at the distribution of the individual Δx movements. Because the simulation generates them from a Gaussian distribution, the program overlays the simulated histogram with the theoretical Gaussian distribution. Conceptually:
+The third graph looks at the distribution of the individual Δx movements. Because the simulation generates them from a Gaussian distribution, the program overlays the simulated histogram with the theoretical Gaussian distribution. **!** *this is still under development and doesnt work well currently ; but This should check whether the random steps being generated behave as expected statistically.*
 
 <img width="505" height="326" alt="Image" src="https://github.com/user-attachments/assets/7226fddc-390c-48ad-9428-6db8a519f638" />
+
+# 4. Single-step MSD validation
+
+The final graph compares:
+
+$$ \langle|\Delta r|^2\rangle $$
+
+from the simulation with the theoretical value:
+
+$$ 6D\Delta t $$
+
+This is another independent check that the random step generation is behaving according to the Brownian-motion model. (or rather it tells you how much we fucked up)
+
+
+<img width="517" height="298" alt="Image" src="https://github.com/user-attachments/assets/a5d40b7b-034c-441a-96ac-3a0c35841f0b" />
 
 
 
