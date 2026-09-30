@@ -162,6 +162,11 @@ This is another independent check that the random step generation is behaving ac
 <img width="517" height="298" alt="Image" src="https://github.com/user-attachments/assets/a5d40b7b-034c-441a-96ac-3a0c35841f0b" />
 
 
+# Why is the code written in Baguette ? 
+
+Because we use it daily and honestly if you read this so far and understand a bit of physics you will be able to understand **everything** . If not then you're a ***loser ahhh***
+
+
 
 
 
