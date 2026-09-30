@@ -17,9 +17,9 @@ The program models a particle suspended in a fluid. At microscopic scales, parti
 
 |-------------------------------------|
 | Particle                            |
-|   │                                 |                  The central equation is the Stokes–Einstein relation : 
+|   │                                 |                 
 |   ├── random Δx                     | 
-|   ├── random Δy                     |                                                 $$D = \frac{k_B T}{6 \pi \eta r}$$          
+|   ├── random Δy                     |                                                        
 |   └── random Δz                     |
 |          │                          |
 |          ▼                          |
@@ -29,5 +29,5 @@ The program models a particle suspended in a fluid. At microscopic scales, parti
 |    Repeat many times                |
 |-------------------------------------|
 
-
-     
+ The central equation is the Stokes–Einstein relation : 
+      $$D = \frac{k_B T}{6 \pi \eta r}$$ 
