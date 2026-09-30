@@ -127,6 +127,8 @@ msd = squared_radius
 **1. 3D Brownian trajectory**
 
 The first graph shows the particle's path:
+
+
 <img width="463" height="299" alt="Image" src="https://github.com/user-attachments/assets/c2f04ea1-409e-4032-a866-e555e8576959" />
 
 
