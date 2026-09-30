@@ -134,10 +134,7 @@ The first graph shows the particle's path *(The trajectory is displayed in nanom
 
 **2. MSD vs time**
 
-The second graph compares: Simulation against Theory
-
-$$ 6Dt $$
-
+The second graph compares: Simulation against Theory ($$ 6Dt $$)
 So you should expect the simulated curve to fluctuate around the theoretical relationship rather than perfectly overlap it.
 
 <img width="525" height="300" alt="Image" src="https://github.com/user-attachments/assets/b6cbdfad-787f-4324-b6f0-1823db94c578" />
