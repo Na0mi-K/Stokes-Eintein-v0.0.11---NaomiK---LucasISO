@@ -19,5 +19,5 @@ The program models a particle suspended in a fluid. At microscopic scales, parti
 
  The central equation is the Stokes–Einstein relation : 
      $$
-      D = \frac{k_B T}{6 \pi \eta r}
+     D = \frac{k_B T}{6 \pi \eta r}
      $$
