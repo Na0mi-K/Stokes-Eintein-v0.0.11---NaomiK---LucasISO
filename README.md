@@ -15,19 +15,7 @@ It also provides several diagnostics to compare the simulation against theoretic
 
 The program models a particle suspended in a fluid. At microscopic scales, particles undergo Brownian motion: instead of moving in a straight line, they are constantly pushed around randomly by collisions with surrounding molecules. The simulation represents this as a sequence of random movements . The size of those random movements is determined by the particle's diffusion coefficient D : 
 
-|-------------------------------------|
-| Particle                            |
-|   │                                 |                 
-|   ├── random Δx                     | 
-|   ├── random Δy                     |                                                        
-|   └── random Δz                     |
-|          │                          |
-|          ▼                          |
-|     New position                    |
-|          │                          |
-|          ▼                          |
-|    Repeat many times                |
-|-------------------------------------|
+<img width="242" height="236" alt="Image" src="https://github.com/user-attachments/assets/6184e092-1e7d-4850-b216-3f0bcdafb951" />
 
  The central equation is the Stokes–Einstein relation : 
       $$D = \frac{k_B T}{6 \pi \eta r}$$ 
