@@ -135,10 +135,16 @@ The first graph shows the particle's path *(The trajectory is displayed in nanom
 **2. MSD vs time**
 
 The second graph compares: Simulation against Theory (***6Dt***)
-So you should expect the simulated curve to fluctuate around the theoretical relationship rather than perfectly overlap it.
+So you should expect the simulated curve to fluctuate around the theoretical relationship rather than perfectly overlap it.( + beyond 0.04 it just diverges like crazy ) 
 
 <img width="525" height="300" alt="Image" src="https://github.com/user-attachments/assets/b6cbdfad-787f-4324-b6f0-1823db94c578" />
 
+
+**3. Distribution of individual movements**
+
+The third graph looks at the distribution of the individual Δx movements. Because the simulation generates them from a Gaussian distribution, the program overlays the simulated histogram with the theoretical Gaussian distribution. Conceptually:
+
+<img width="505" height="326" alt="Image" src="https://github.com/user-attachments/assets/7226fddc-390c-48ad-9428-6db8a519f638" />
 
 
 
